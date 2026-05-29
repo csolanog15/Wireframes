@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframes — Ciencuadras</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: #f8f9fa; color: #333; padding: 48px; }
+        h1 { font-size: 28px; color: #1a3a5c; margin-bottom: 8px; }
+        .subtitle { color: #666; margin-bottom: 32px; }
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
+        .card { background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 24px; transition: box-shadow 0.2s; }
+        .card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .card h2 { font-size: 18px; color: #1a3a5c; margin-bottom: 8px; }
+        .card p { font-size: 14px; color: #666; margin-bottom: 16px; }
+        .card a { display: inline-block; background: #00a3e0; color: #fff; padding: 8px 20px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 500; }
+        .card a:hover { background: #0088c2; }
+        .card .date { font-size: 12px; color: #999; margin-top: 12px; }
+    </style>
+</head>
+<body>
+    <h1>Wireframes — Ciencuadras</h1>
+    <p class="subtitle">Prototipos de UI para el equipo de producto</p>
+    
+    <div class="card-grid">
+        <div class="card">
+            <h2>Agente Inmobiliarias</h2>
+            <p>Nueva seccion del Gestor de Solicitudes para consultar y activar agentes inmobiliarios. Incluye 3 vistas: busqueda, resultados y activacion.</p>
+            <a href="agente-inmobiliarias/">Ver wireframe</a>
+            <p class="date">Creado: 2026-05-29</p>
+        </div>
+    </div>
+</body>
+</html>
